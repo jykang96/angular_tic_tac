@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+  
+app-square {
+    display: table;
+    border: 1px gray solid;
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+}
+
+app-square p{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
